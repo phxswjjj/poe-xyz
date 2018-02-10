@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "poe-xyz",
+  "description": "request http://poedb.tw/xyz.php",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon.ico",
+    "default_popup": "browser-pop.html",
+    "default_title": "OPEN"
+  }
+}
