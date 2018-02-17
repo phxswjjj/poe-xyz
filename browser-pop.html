@@ -14,6 +14,10 @@
             width: 700px;
             height: 200px;
         }
+
+        .item_cmd_panel input {
+            margin: 0 5px;
+        }
     </style>
     <script src="lib/jquery-1.12.4.js"></script>
     <script data-main="lib/ts/browser-pop" src="lib/require.js"></script>
@@ -23,8 +27,9 @@
     <div>
         <textarea id="item_desc"></textarea>
     </div>
-    <div>
-        <input id="btnSearch" type="button" value="Search" />
+    <div class="item_cmd_panel">
+        <input id="btnOpenXYZ" type="button" value="OpenXYZ(New Tab)" />
+        <input id="btnViewTSG" type="button" value="OpenTSG(New Tab)" />
     </div>
 </body>
 
