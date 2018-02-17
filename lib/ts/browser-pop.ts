@@ -16,11 +16,11 @@ $(function () {
         }
     });
 
-    $('#btnViewTSG').click(function () {
+    $('#btnOpenTSG').click(function () {
         var itemDesc = itemDescCtrl.val() as string;
         let item = new ItemParser.ItemContent(itemDesc);
         console.log(item);
-        if (item.isValid && item.isIdentified) {
+        if (item.isValid) {
             var tsgItem = new tsg.ItemContent(item);
             if (tsgItem.parseItemNo()) {
                 chrome.tabs.create({
