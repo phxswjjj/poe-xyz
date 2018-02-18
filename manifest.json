@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "poe-xyz",
-    "description": "request http://poedb.tw/xyz.php",
+    "description": "query item price for Path Of Exile",
     "version": "1.0",
     "browser_action": {
         "default_icon": "images/icon.ico",
